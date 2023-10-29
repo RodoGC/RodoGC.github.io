@@ -1,14 +1,10 @@
 ---
 layout: post
-title: Releasing Not Pure Poole v0.1.0
-author: Songzi Vong
+title: Tarea 998 
+author: Rodolfo Giron Coronel
 tags:
-- jekyll theme
-- jekyll
-date: 2020-10-01 13:56 +0800
+- Tarea 998
+  
+date: 2023-10-28 13:56 +0800
 ---
-The Jekyll theme **Not Pure Poole** v0.1.0 was released!
-
-Not Pure Poole is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
-
-For more information about this theme, you can read the [README](https://github.com/vszhub/not-pure-poole/blob/master/README.md) file.
+Tarea #998 Crear una GitHub page a partir de un template de Jekyll. Entregar 30/10/2023.
