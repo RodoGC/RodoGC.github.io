@@ -1,7 +1,7 @@
 # Setup
 title: Rodolfo Girón Coronel
 description: Ingeniero en Sistemas Computacioneles
-url: https://vszhub.github.io
+url: https://github.com/RodoGC
 avatar: https://scontent.fcun1-1.fna.fbcdn.net/v/t1.6435-9/69949187_2337704716327655_1350584085776433152_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeFy7Y8n92HY0GycrJ_TeDnC35ZmV1LfBNLflmZXUt8E0gH677ovqggsmywVe77cVbB6XecT7H3SDT_Ld7I9xZMG&_nc_ohc=kyw8g4IB8OcAX_XJP3g&_nc_ht=scontent.fcun1-1.fna&oh=00_AfAWYFF1WhYmVba5kfGC881Q6jgL3CM-bFZuZLodch6z7w&oe=65652D80
 paginate: 5
 permalink: pretty
@@ -33,10 +33,10 @@ twitter:
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Rodolfo Giron Coronel
   links:
     - https://twitter.com/coronel11890
-    - https://github.com/vszhub
+    - https://github.com/RodoGC
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Rodolfo Giron Coronel
+  url: https://github.com/RodoGC
+  email: rgironcoronel@gmail.com
