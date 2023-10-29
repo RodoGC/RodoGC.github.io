@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tarea #999
-tags: Tarea #999
+title: Tarea 999
+tags: Tarea 999
 math: true
 date: 2023-10-28 15:32 +0800
 ---
