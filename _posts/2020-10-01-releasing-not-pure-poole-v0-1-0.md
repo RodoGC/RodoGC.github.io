@@ -7,4 +7,4 @@ tags:
   
 date: 2023-10-28 13:56 +0800
 ---
-Tarea #998 Crear una GitHub page a partir de un template de Jekyll. Entregar 30/10/2023.
+Tarea #998 Crear una GitHub page a partir de un template de Jekyll. 
