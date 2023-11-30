@@ -18,8 +18,10 @@ Cuando los desarrolladores no imponen restricciones a las "cadenas de dispositiv
 
 Este fragmento de código deserializa un objeto de un archivo y lo utiliza como botón de la interfaz de usuario:
 
-Lenguaje de ejemplo: Java 
 
+
+{% highlight js %}
+// Lenguaje de ejemplo: Java
 intentar {
 Archivo archivo = nuevo Archivo ("objeto.obj");
 ObjectInputStream en = nuevo ObjectInputStream(nuevo FileInputStream(archivo));
