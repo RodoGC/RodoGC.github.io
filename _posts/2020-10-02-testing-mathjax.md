@@ -26,6 +26,8 @@ ObjectInputStream en = nuevo ObjectInputStream(nuevo FileInputStream(archivo));
 botón javax.swing.JButton = (javax.swing.JButton) in.readObject();
 cercar();
 }
+
+
 Este código no intenta verificar el origen o el contenido del archivo antes de deserializarlo. Un atacante puede reemplazar el archivo deseado con un archivo que contenga código malicioso arbitrario que se ejecutará cuando se presione el botón.
 
 Para mitigar esto, defina explícitamente readObject() final para evitar la deserialización. Un ejemplo de esto es:
