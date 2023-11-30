@@ -11,4 +11,4 @@ Tareas programación web
 
 
 
-![placeholder](Tareas programación web/Tarea 993 y 992 Realizar estos rooms de TryHackme/84c51b24-4151-4acb-b2d2-08d1b608cfa9.jpg "Medium example image")
+![placeholder](4c51b24-4151-4acb-b2d2-08d1b608cfa9.jpg "Medium example image")
