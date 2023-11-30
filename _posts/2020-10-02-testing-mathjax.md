@@ -7,14 +7,14 @@ tags: Deserialización de datos que no son de confianza
 math: true
 date: 2023-10-28 15:32 +0800
 ---
-Definición
+# Definición
 A menudo resulta conveniente serializar objetos para la comunicación o guardarlos para su uso posterior. Sin embargo, los datos o códigos deserializados a menudo se pueden modificar sin utilizar las funciones de acceso proporcionadas si no utilizan criptografía para protegerse. Además, cualquier criptografía seguiría siendo seguridad del lado del cliente, lo cual es una suposición de seguridad peligrosa.
 
 No se puede confiar en que los datos que no son de confianza estén bien formados.
 
 Cuando los desarrolladores no imponen restricciones a las "cadenas de dispositivos", o series de instancias e invocaciones de métodos que pueden autoejecutarse durante el proceso de deserialización (es decir, antes de que el objeto se devuelva a la persona que llama), a veces es posible que los atacantes las aprovechen para realizar acciones no autorizadas, como generar un shell.
 
-Ejemplo 1
+# Ejemplo 1
 
 Este fragmento de código deserializa un objeto de un archivo y lo utiliza como botón de la interfaz de usuario:
 
@@ -38,7 +38,7 @@ Lenguaje de ejemplo: Java
 readObject final vacío privado (ObjectInputStream in) lanza java.io.IOException {
 throw new java.io.IOException ("No se puede deserializar"); }
 
-Ejemplo 2
+# Ejemplo 2
 
 En Python, la biblioteca Pickle maneja los procesos de serialización y deserialización. En este ejemplo derivado de [ REF-467 ], el código recibe y analiza datos y luego intenta autenticar a un usuario basándose en la validación de un token.
 
@@ -47,8 +47,8 @@ intentar {
 clase EjemploProtocol(protocol.Protocol):
 def dataReceived(self, data):
 
-# El código que estaría aquí analizaría los datos entrantes
-# Después de recibir los encabezados, llame a confirmAuth() para autenticarse
+El código que estaría aquí analizaría los datos entrantes
+Después de recibir los encabezados, llame a confirmAuth() para autenticarse
 
 def confirmAuth(self, headers):
 try:
@@ -63,7 +63,7 @@ aumentar AuthFail
 Desafortunadamente, el código no verifica que los datos entrantes sean legítimos. Un atacante puede construir un objeto serializado ilegítimo "AuthToken" que crea una instancia de uno de los subprocesos de Python para ejecutar comandos arbitrarios. Por ejemplo, el atacante podría construir un pickle que aproveche el módulo de subproceso de Python, que genera nuevos procesos e incluye una serie de argumentos para diversos usos. Dado que Pickle permite que los objetos definan el proceso sobre cómo deben ser desenganchados, el atacante puede ordenar al proceso de desenganche que llame a Popen en el módulo de subproceso y ejecute /bin/sh.
 
 
-Prevención
+# Prevención
 - Se debe implementar verificaciones de integridad tales como firmas digitales en cualquier objeto serializado con el fin de detectar modificaciones no autorizadas.
 - Durante la deserialización es recomendable verificar el tipo de dato ya que por lo general se espera un tipo de dato o clase concreta después de la deserialización.
 - El código que realiza la deserialización se debe ejecutar en un entorno conlos mínimos privilegios posibles.
