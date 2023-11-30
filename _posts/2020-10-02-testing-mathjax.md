@@ -20,8 +20,7 @@ Este fragmento de código deserializa un objeto de un archivo y lo utiliza como 
 
 
 
-{% highlight js %}
-// Lenguaje de ejemplo: Java
+
 intentar {
 Archivo archivo = nuevo Archivo ("objeto.obj");
 ObjectInputStream en = nuevo ObjectInputStream(nuevo FileInputStream(archivo));
