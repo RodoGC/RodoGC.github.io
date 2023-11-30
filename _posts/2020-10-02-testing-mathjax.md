@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tarea 991 Deserialización insegura
+title: Deserialización insegura
 tags: Deserialización insegura
 math: true
 date: 2023-10-28 15:32 +0800
