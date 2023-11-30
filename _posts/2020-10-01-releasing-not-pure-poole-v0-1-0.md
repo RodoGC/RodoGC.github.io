@@ -11,4 +11,4 @@ Tareas programación web
 
 
 
-![placeholder](http://placehold.it/400x200 "Medium example image"){: .align-center}
+![placeholder](http://placehold.it/400x200 "Medium example image")
